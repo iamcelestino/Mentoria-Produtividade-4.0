@@ -1,0 +1,22 @@
+{
+  "name": "mentoria-proditividade-4.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcelestino/Mentoria-Produtividade-4.0.git"
+  },
+  "author": "Celestino Trosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcelestino/Mentoria-Produtividade-4.0/issues"
+  },
+  "homepage": "https://github.com/iamcelestino/Mentoria-Produtividade-4.0#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
