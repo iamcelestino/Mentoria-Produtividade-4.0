@@ -596,10 +596,6 @@ video {
   position: fixed;
 }
 
-.relative {
-  position: relative;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -634,8 +630,8 @@ video {
   margin-top: 2rem;
 }
 
-.block {
-  display: block;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .inline-block {
@@ -672,6 +668,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -909,6 +909,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -962,6 +967,10 @@ video {
 
   .md\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
   }
 
   .md\:block {
