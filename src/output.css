@@ -596,6 +596,10 @@ video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -630,8 +634,8 @@ video {
   margin-top: 2rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -808,6 +812,11 @@ video {
   background-position: center;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-16 {
   padding: 4rem;
 }
@@ -909,11 +918,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -953,12 +957,6 @@ video {
   text-decoration-line: line-through;
 }
 
-@media (min-width: 640px) {
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:my-0 {
     margin-top: 0px;
@@ -967,10 +965,6 @@ video {
 
   .md\:mb-4 {
     margin-bottom: 1rem;
-  }
-
-  .md\:mb-8 {
-    margin-bottom: 2rem;
   }
 
   .md\:block {
@@ -1102,3 +1096,6 @@ video {
     line-height: 2.5rem;
   }
 }
+
+
+
