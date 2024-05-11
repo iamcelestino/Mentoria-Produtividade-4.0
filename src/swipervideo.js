@@ -1,10 +1,11 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 
-const swiper = 0
+var swiper = 0
 
 swiper = new Swiper(".videoSlide", {
     effect: "coverflow",
     grabCursor: true,
+    spaceBetween: 40,
     slidesPerView: 1,
     coverflowEffect: {
       rotate: 50,
