@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  @font-face {
+    font-family: 'pagesGrotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../font/PagesGrotesqueBlackDemo-gK1q.ttf) format('ttf');
+  }
+}
+
 @layer utilities {
     .swiper-slide img {
         display: block;
